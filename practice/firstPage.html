@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Things I've Learned</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Register</h1>
+
+        <form>
+            <p><label for="firstName">First Name:</label>
+            <input id="firstName" type="text" placeholder="John" required>
+            <label for="lastName">Last Name:</label>
+            <input id="lastName" type="text" placeholder="Smith" required></p>
+            
+            <p><label id="male" for="male">Male </label>
+            <input id="male" name="gender" type="radio">
+            <label id="female" for="female">Female </label>
+            <input id="female" name="gender" type="radio">
+            <label id="other" for="other">Other </label>
+            <input id="other" name="gender" type="radio"></p>
+
+            <p><label for="email">Email</label>
+            <input id="email" type="email" placeholder="Your Email" required>
+            <label for="password">Password:</label>
+            <input id="password" type="password" required minlength="5" maxlength="10" size="10"></p>
+
+            <p><label for="month">Birthday:</label>
+            <select name="month">
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+            </select>
+            <select name="day">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+            <select name="year">
+                <option>1989</option>
+                <option>1990</option>
+                <option>1991</option>
+            </select></p>
+
+            <p><label for="term">I agree to the terms and conditions</label>
+            <input type="checkbox"></p>
+
+            <p><input type="submit" value="Submit"></p>
+        </form>
+
+    </body>
+</html>
+
+
